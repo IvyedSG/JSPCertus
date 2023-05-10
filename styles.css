@@ -1,0 +1,44 @@
+/* Define un fondo gradiente para el cuerpo de la página */
+body {
+    /* Fallback para navegadores antiguos */
+    background: #0F2027;
+  
+    /* Gradiente lineal para navegadores modernos */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  
+    /* Elimina los márgenes y ajusta la altura para centrar el contenido verticalmente */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Define un fondo semitransparente y bordes redondeados para el contenedor principal */
+  #bg-gradient {
+    /* Fondo semitransparente */
+    background-color: rgba(255, 255, 255, 0.9);
+  
+    /* Bordes redondeados */
+    border-radius: 10px;
+  
+    /* Añade un espacio alrededor del contenido */
+    padding: 20px;
+  
+    /* Limita el ancho máximo del contenedor para que no se extienda demasiado */
+    max-width: 600px;
+  }
+  
+  /* Centra el botón dentro del contenedor */
+  .btn-primary {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Define el color de fondo y de borde del botón a verde */
+  .btn-primary {
+    background-color: green;
+    border-color: green;
+  }
+  
